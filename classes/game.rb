@@ -2,20 +2,7 @@ require_relative 'player'
 require_relative 'question' 
 
 class Game
-#   - Instance variables:
-#   - player1
-#   - player2
-#   - current_player
-#   - game_over
-# - Methods:
-#   - start_game
-#   - switch_player
-#   - game_over?
-#   - display_winner
-#   - display_score
-#   - display_question
-#   - display_answer
-#   - display_game_over
+
   attr_reader :player1, :player2, :current_player, :game_over
 
   def initialize 
@@ -50,7 +37,7 @@ class Game
   def switch_player
     @current_player = @current_player == @player1 ? @player2 : @player1
   end
-  
+
   def game_over?
     !player1.alive? || !player2.alive?
   end

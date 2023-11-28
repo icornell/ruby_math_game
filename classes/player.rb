@@ -1,12 +1,4 @@
 class Player
-  # - Player
-  # - Instance variables:
-  #   - name
-  #   - lives
-  #   - score
-  # - Methods:
-  #   - answer_question
-  #   - alive?
 
   attr_accessor :name, :lives, :score
 

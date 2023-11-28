@@ -1,11 +1,5 @@
 class Question
-    # - Instance variables:
-  #   - num1
-  #   - num2
-  #   - answer
-  # - Methods:
-  #   - ask_question
-  #   - check_answer
+
   attr_reader :num1, :num2, :answer
   
   def initialize
