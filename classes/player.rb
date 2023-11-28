@@ -27,12 +27,7 @@ class Player
   end
 
   def alive?
-    if @lives > 0
-      puts "You have #{@lives} lives left."
-      true
-    else
-      puts "You have no lives left."
-      false
-    end
+    @lives > 0
   end
+  
 end
